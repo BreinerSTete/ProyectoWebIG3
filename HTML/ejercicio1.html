@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XML</title>
 </head>
+
+<style>table, th, td {
+    border: 1px solid;
+}
+</style>
+
 <body>
     <h1>What is XML?</h1>
 
@@ -32,11 +38,18 @@
     <br>
     <p>Maybe its a little hard to understand, but XML does not DO anything. XML was created to structure, store and send information.</p>
     <p>The following example is a note to Tove from Jani, stored as XML:</p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
+    <textarea style="overflow:auto;resize:none" rows="7" cols="80">
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Reminder</heading>
+<body>Don't forget me this weekend!</body>
+</note>
+    </textarea>
+
+
+
     <p>The note has a header and a message body. It also has sender and receiver information. But still, this XML document not DO anything. It is just pure information wrapped in XML tags. Someone must write a piece of software to send, receive or display it.</p>
 </body>
 </html>
